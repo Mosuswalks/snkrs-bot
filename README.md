@@ -28,7 +28,7 @@
   <h3 align="center">snkrs-bot</h3>
 
   <p align="center">
-    My personal portfolio site.
+    SNKRS Canada Automated Bot
     <br />
     <a href="https://github.com/mosuswalks/snkrs-bot"><strong>Explore the docs »</strong></a>
     <br />
@@ -89,6 +89,7 @@ To get a local copy up and running follow these simple steps.
 
 You must already have a valid [Nike](https://nike.com) account and credit card tied to the account. 
 
+
 * yarn
 ```sh
 yarn upgrade --latest
@@ -97,6 +98,7 @@ yarn upgrade --latest
 ```sh
 npm install npm@latest -g
 ```
+
 
 ### Installation
  
