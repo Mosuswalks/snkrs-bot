@@ -62,7 +62,8 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-Every great developer has a personal website filled with amazing examples of their code - Here's mine.
+A fully automated sneaker bot for purchasing exclusive sneakers on the Nike Canada SNKR's site.
+
 
 Feel free fork and edit this project to your liking.
 <!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
