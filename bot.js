@@ -28,8 +28,8 @@ const runSnkrBot = () => {
 	const email = process.env.EMAIL;
 	const pass = process.env.PASS;
 
-	// cv_code: 3-digit credit card validation code for the card saved to your Nike.com account
-	const cv_code = process.env.CV_CODE
+	// cvv_code: 3-digit credit card validation value for the card saved to your Nike.com account
+	const cvv_code = process.env.CVV
 
 	// size: the shoe size, as you see in the table of sizes on a product page, e.g., 'M 9 / W 10.5'
 	const size = 'US M 9.5 / W 11';
@@ -273,7 +273,7 @@ const runSnkrBot = () => {
 			() => (document.getElementById("cvNumber").focus())
 		);	
 		await target_frame.waitFor(1000);
-		await page.keyboard.type(cv_code, {delay: 10});
+		await page.keyboard.type(cvv_code, {delay: 10});
 		
 		
 		//#### LOG / DEBUG

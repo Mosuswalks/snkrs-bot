@@ -123,7 +123,7 @@ npm install
 ```sh
 EMAIL=youremail@example.com
 PASS=yournikeaccountpassword
-CVC=yourcreditcardcvc
+CVV=yourcreditcardcvv
 ```
 
 2. In the bot.js file, edit the following lines.
