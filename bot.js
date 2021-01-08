@@ -31,11 +31,12 @@ const runSnkrBot = () => {
 	// cvv_code: 3-digit credit card validation value for the card saved to your Nike.com account
 	const cvv_code = process.env.CVV
 
-	// size: the shoe size, as you see in the table of sizes on a product page, e.g., 'M 9 / W 10.5'
-	const size = 'US M 9.5 / W 11';
+	// size: the shoe size, as you see in the table of sizes on a product page, e.g., 'M 9', 'US 12' or 'W 10.5'
+    // make sure to double check some other sneaker size charts on Nike SNKRS Canada to get this right
+	const size = 'US 11';
 
 	/* date: the date and time the shoe is being dropped at. Months will begin at zero so be sure to subratct one from any month.
-		Date format should be as follows: (year, month - 1, day, hour, minute, seconds) 
+		Date format should be as follows: (year, month - 1, day, hour, minute, seconds)
 	*/
 	const date = new Date(2020, 4, 19, 23, 48, 30);
 

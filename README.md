@@ -118,7 +118,7 @@ npm install
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-1. You'll need to reate a .env file and add the following variables.
+1. You'll need to create a .env file and add the following variables.
 
 ```sh
 EMAIL=youremail@example.com
